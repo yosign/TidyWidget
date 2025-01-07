@@ -6,7 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF7D3C6B2D2BCDF2005B5C0D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7D3C6A2D2BCDF2005B5C0D /* WidgetKit.framework */; };
+		EF7D3C6D2D2BCDF2005B5C0D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7D3C6C2D2BCDF2005B5C0D /* SwiftUI.framework */; };
+		EF7D3C7E2D2BCDF4005B5C0D /* TidyWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EF7D3C682D2BCDF2005B5C0D /* TidyWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF7D3C972D2BCFE3005B5C0D /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7D3C8D2D2BCFE3005B5C0D /* SharedKit.framework */; };
+		EF7D3CA22D2BCFE3005B5C0D /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7D3C8D2D2BCFE3005B5C0D /* SharedKit.framework */; };
+		EF7D3CA32D2BCFE3005B5C0D /* SharedKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF7D3C8D2D2BCFE3005B5C0D /* SharedKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
+		EF7D3C7C2D2BCDF4005B5C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF99140D2D1BD72A00F26AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7D3C672D2BCDF2005B5C0D;
+			remoteInfo = TidyWidgetExtensionExtension;
+		};
+		EF7D3C982D2BCFE3005B5C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF99140D2D1BD72A00F26AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7D3C8C2D2BCFE3005B5C0D;
+			remoteInfo = SharedKit;
+		};
+		EF7D3C9A2D2BCFE3005B5C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF99140D2D1BD72A00F26AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9914142D1BD72A00F26AA2;
+			remoteInfo = TidyWidget;
+		};
+		EF7D3CA02D2BCFE3005B5C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF99140D2D1BD72A00F26AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7D3C8C2D2BCFE3005B5C0D;
+			remoteInfo = SharedKit;
+		};
 		EF9914262D1BD72C00F26AA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF99140D2D1BD72A00F26AA2 /* Project object */;
@@ -23,13 +60,83 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EF7D3C832D2BCDF4005B5C0D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EF7D3C7E2D2BCDF4005B5C0D /* TidyWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3CA82D2BCFE3005B5C0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EF7D3CA32D2BCFE3005B5C0D /* SharedKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EF7D3C622D2BCD1E005B5C0D /* DeamWidgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeamWidgetData.swift; sourceTree = "<group>"; };
+		EF7D3C632D2BCD3D005B5C0D /* DreamStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamStore.swift; sourceTree = "<group>"; };
+		EF7D3C682D2BCDF2005B5C0D /* TidyWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TidyWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7D3C6A2D2BCDF2005B5C0D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EF7D3C6C2D2BCDF2005B5C0D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EF7D3C8D2D2BCFE3005B5C0D /* SharedKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7D3C962D2BCFE3005B5C0D /* SharedKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9914152D1BD72A00F26AA2 /* TidyWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TidyWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9914252D1BD72C00F26AA2 /* TidyWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidyWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF99142F2D1BD72C00F26AA2 /* TidyWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidyWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EF7D3C7F2D2BCDF4005B5C0D /* Exceptions for "TidyWidgetExtension" folder in "TidyWidgetExtensionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EF7D3C672D2BCDF2005B5C0D /* TidyWidgetExtensionExtension */;
+		};
+		EF7D3CA42D2BCFE3005B5C0D /* Exceptions for "SharedKit" folder in "SharedKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				SharedKit.h,
+			);
+			target = EF7D3C8C2D2BCFE3005B5C0D /* SharedKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF7D3C6E2D2BCDF2005B5C0D /* TidyWidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EF7D3C7F2D2BCDF4005B5C0D /* Exceptions for "TidyWidgetExtension" folder in "TidyWidgetExtensionExtension" target */,
+			);
+			path = TidyWidgetExtension;
+			sourceTree = "<group>";
+		};
+		EF7D3C8E2D2BCFE3005B5C0D /* SharedKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EF7D3CA42D2BCFE3005B5C0D /* Exceptions for "SharedKit" folder in "SharedKit" target */,
+			);
+			path = SharedKit;
+			sourceTree = "<group>";
+		};
+		EF7D3C9C2D2BCFE3005B5C0D /* SharedKitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedKitTests;
+			sourceTree = "<group>";
+		};
 		EF9914172D1BD72A00F26AA2 /* TidyWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TidyWidget;
@@ -48,10 +155,35 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF7D3C652D2BCDF2005B5C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D3C6D2D2BCDF2005B5C0D /* SwiftUI.framework in Frameworks */,
+				EF7D3C6B2D2BCDF2005B5C0D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3C8A2D2BCFE3005B5C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3C932D2BCFE3005B5C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D3C972D2BCFE3005B5C0D /* SharedKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF9914122D1BD72A00F26AA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7D3CA22D2BCFE3005B5C0D /* SharedKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +204,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF7D3C612D2BCD06005B5C0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D3C632D2BCD3D005B5C0D /* DreamStore.swift */,
+				EF7D3C622D2BCD1E005B5C0D /* DeamWidgetData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF7D3C692D2BCDF2005B5C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D3C6A2D2BCDF2005B5C0D /* WidgetKit.framework */,
+				EF7D3C6C2D2BCDF2005B5C0D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF99140C2D1BD72A00F26AA2 = {
 			isa = PBXGroup;
 			children = (
+				EF7D3C612D2BCD06005B5C0D /* Models */,
 				EF9914172D1BD72A00F26AA2 /* TidyWidget */,
 				EF9914282D1BD72C00F26AA2 /* TidyWidgetTests */,
 				EF9914322D1BD72C00F26AA2 /* TidyWidgetUITests */,
+				EF7D3C6E2D2BCDF2005B5C0D /* TidyWidgetExtension */,
+				EF7D3C8E2D2BCFE3005B5C0D /* SharedKit */,
+				EF7D3C9C2D2BCFE3005B5C0D /* SharedKitTests */,
+				EF7D3C692D2BCDF2005B5C0D /* Frameworks */,
 				EF9914162D1BD72A00F26AA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,13 +243,95 @@
 				EF9914152D1BD72A00F26AA2 /* TidyWidget.app */,
 				EF9914252D1BD72C00F26AA2 /* TidyWidgetTests.xctest */,
 				EF99142F2D1BD72C00F26AA2 /* TidyWidgetUITests.xctest */,
+				EF7D3C682D2BCDF2005B5C0D /* TidyWidgetExtensionExtension.appex */,
+				EF7D3C8D2D2BCFE3005B5C0D /* SharedKit.framework */,
+				EF7D3C962D2BCFE3005B5C0D /* SharedKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EF7D3C882D2BCFE3005B5C0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		EF7D3C672D2BCDF2005B5C0D /* TidyWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7D3C802D2BCDF4005B5C0D /* Build configuration list for PBXNativeTarget "TidyWidgetExtensionExtension" */;
+			buildPhases = (
+				EF7D3C642D2BCDF2005B5C0D /* Sources */,
+				EF7D3C652D2BCDF2005B5C0D /* Frameworks */,
+				EF7D3C662D2BCDF2005B5C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EF7D3C6E2D2BCDF2005B5C0D /* TidyWidgetExtension */,
+			);
+			name = TidyWidgetExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = TidyWidgetExtensionExtension;
+			productReference = EF7D3C682D2BCDF2005B5C0D /* TidyWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EF7D3C8C2D2BCFE3005B5C0D /* SharedKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7D3CA52D2BCFE3005B5C0D /* Build configuration list for PBXNativeTarget "SharedKit" */;
+			buildPhases = (
+				EF7D3C882D2BCFE3005B5C0D /* Headers */,
+				EF7D3C892D2BCFE3005B5C0D /* Sources */,
+				EF7D3C8A2D2BCFE3005B5C0D /* Frameworks */,
+				EF7D3C8B2D2BCFE3005B5C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EF7D3C8E2D2BCFE3005B5C0D /* SharedKit */,
+			);
+			name = SharedKit;
+			packageProductDependencies = (
+			);
+			productName = SharedKit;
+			productReference = EF7D3C8D2D2BCFE3005B5C0D /* SharedKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF7D3C952D2BCFE3005B5C0D /* SharedKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7D3CA92D2BCFE3005B5C0D /* Build configuration list for PBXNativeTarget "SharedKitTests" */;
+			buildPhases = (
+				EF7D3C922D2BCFE3005B5C0D /* Sources */,
+				EF7D3C932D2BCFE3005B5C0D /* Frameworks */,
+				EF7D3C942D2BCFE3005B5C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7D3C992D2BCFE3005B5C0D /* PBXTargetDependency */,
+				EF7D3C9B2D2BCFE3005B5C0D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF7D3C9C2D2BCFE3005B5C0D /* SharedKitTests */,
+			);
+			name = SharedKitTests;
+			packageProductDependencies = (
+			);
+			productName = SharedKitTests;
+			productReference = EF7D3C962D2BCFE3005B5C0D /* SharedKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EF9914142D1BD72A00F26AA2 /* TidyWidget */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF9914392D1BD72C00F26AA2 /* Build configuration list for PBXNativeTarget "TidyWidget" */;
@@ -102,10 +339,14 @@
 				EF9914112D1BD72A00F26AA2 /* Sources */,
 				EF9914122D1BD72A00F26AA2 /* Frameworks */,
 				EF9914132D1BD72A00F26AA2 /* Resources */,
+				EF7D3C832D2BCDF4005B5C0D /* Embed Foundation Extensions */,
+				EF7D3CA82D2BCFE3005B5C0D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EF7D3C7D2D2BCDF4005B5C0D /* PBXTargetDependency */,
+				EF7D3CA12D2BCFE3005B5C0D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				EF9914172D1BD72A00F26AA2 /* TidyWidget */,
@@ -173,6 +414,16 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					EF7D3C672D2BCDF2005B5C0D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EF7D3C8C2D2BCFE3005B5C0D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EF7D3C952D2BCFE3005B5C0D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EF9914142D1BD72A00F26AA2;
+					};
 					EF9914142D1BD72A00F26AA2 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -203,11 +454,35 @@
 				EF9914142D1BD72A00F26AA2 /* TidyWidget */,
 				EF9914242D1BD72C00F26AA2 /* TidyWidgetTests */,
 				EF99142E2D1BD72C00F26AA2 /* TidyWidgetUITests */,
+				EF7D3C672D2BCDF2005B5C0D /* TidyWidgetExtensionExtension */,
+				EF7D3C8C2D2BCFE3005B5C0D /* SharedKit */,
+				EF7D3C952D2BCFE3005B5C0D /* SharedKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF7D3C662D2BCDF2005B5C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3C8B2D2BCFE3005B5C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3C942D2BCFE3005B5C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF9914132D1BD72A00F26AA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +507,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF7D3C642D2BCDF2005B5C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3C892D2BCFE3005B5C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7D3C922D2BCFE3005B5C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF9914112D1BD72A00F26AA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +552,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EF7D3C7D2D2BCDF4005B5C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7D3C672D2BCDF2005B5C0D /* TidyWidgetExtensionExtension */;
+			targetProxy = EF7D3C7C2D2BCDF4005B5C0D /* PBXContainerItemProxy */;
+		};
+		EF7D3C992D2BCFE3005B5C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7D3C8C2D2BCFE3005B5C0D /* SharedKit */;
+			targetProxy = EF7D3C982D2BCFE3005B5C0D /* PBXContainerItemProxy */;
+		};
+		EF7D3C9B2D2BCFE3005B5C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9914142D1BD72A00F26AA2 /* TidyWidget */;
+			targetProxy = EF7D3C9A2D2BCFE3005B5C0D /* PBXContainerItemProxy */;
+		};
+		EF7D3CA12D2BCFE3005B5C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7D3C8C2D2BCFE3005B5C0D /* SharedKit */;
+			targetProxy = EF7D3CA02D2BCFE3005B5C0D /* PBXContainerItemProxy */;
+		};
 		EF9914272D1BD72C00F26AA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EF9914142D1BD72A00F26AA2 /* TidyWidget */;
@@ -269,6 +585,158 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		EF7D3C812D2BCDF4005B5C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TidyWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TidyWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nesslijin.TidyWidget.TidyWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7D3C822D2BCDF4005B5C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TidyWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TidyWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nesslijin.TidyWidget.TidyWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF7D3CA62D2BCFE3005B5C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = nesslijin.TidyWidget.SharedKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF7D3CA72D2BCFE3005B5C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = nesslijin.TidyWidget.SharedKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF7D3CAA2D2BCFE3005B5C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nesslijin.TidyWidget.SharedKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TidyWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TidyWidget";
+			};
+			name = Debug;
+		};
+		EF7D3CAB2D2BCFE3005B5C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nesslijin.TidyWidget.SharedKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TidyWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TidyWidget";
+			};
+			name = Release;
+		};
 		EF9914372D1BD72C00F26AA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +983,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF7D3C802D2BCDF4005B5C0D /* Build configuration list for PBXNativeTarget "TidyWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D3C812D2BCDF4005B5C0D /* Debug */,
+				EF7D3C822D2BCDF4005B5C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7D3CA52D2BCFE3005B5C0D /* Build configuration list for PBXNativeTarget "SharedKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D3CA62D2BCFE3005B5C0D /* Debug */,
+				EF7D3CA72D2BCFE3005B5C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7D3CA92D2BCFE3005B5C0D /* Build configuration list for PBXNativeTarget "SharedKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7D3CAA2D2BCFE3005B5C0D /* Debug */,
+				EF7D3CAB2D2BCFE3005B5C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF9914102D1BD72A00F26AA2 /* Build configuration list for PBXProject "TidyWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

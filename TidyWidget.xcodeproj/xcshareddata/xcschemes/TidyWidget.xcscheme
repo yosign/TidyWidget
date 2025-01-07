@@ -52,6 +52,17 @@
                ReferencedContainer = "container:TidyWidget.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF7D3C952D2BCFE3005B5C0D"
+               BuildableName = "SharedKitTests.xctest"
+               BlueprintName = "SharedKitTests"
+               ReferencedContainer = "container:TidyWidget.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
